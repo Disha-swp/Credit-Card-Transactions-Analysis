@@ -1,10 +1,10 @@
 /*
-Credit Card spend across cities in India
+Spend through credit card across cities in India
 
 Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 */
--- dataset is downloaded from kaggle link put 5-10 description of data
+
 select min(str_to_date(date,'%d-%b-%y')),max(str_to_date(date,'%d-%b-%y')) from credit_card_transcations;
 -- 2013-10-04 to 2015-05-26
 
