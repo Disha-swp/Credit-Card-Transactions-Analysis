@@ -36,7 +36,7 @@ select card_type,month,spent from cte where rn = 1;
 select * from credit_card_transcations;
 with cte as(
 select *,
-sum(amount) over(partition by card_type order by ind) as running_sum
+sum(amount) over(partition by card_type order by str_to_date(date,'%d-%b-%y') , ind) as running_sum
 from credit_card_transcations
 )
 select * from cte where running_sum in (select min(running_sum) from cte where running_sum>=1000000 group by card_type);
