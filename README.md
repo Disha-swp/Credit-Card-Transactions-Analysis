@@ -2,7 +2,7 @@
 This project analyzes credit card spending patterns using **MySQL** on a real-world dataset. The dataset contains transaction details across multiple cities in India, including transaction date, amount, card type, expense type, and gender.
 The main objective is to perform **data cleaning**, **transformation**, and **exploratory analysis** using SQL queries and derive actionable insights.
 ### Dataset
-**Source**: Kaggle - Analyzing Credit Card Spending Habits in India
+**Source**: Kaggle - Analyzing Credit Card Spending Habits in India (https://www.kaggle.com/datasets/thedevastator/analyzing-credit-card-spending-habits-in-india)
 **Table Name**: credit_card_transcations
 * **Columns**:
     * ind (INT)
