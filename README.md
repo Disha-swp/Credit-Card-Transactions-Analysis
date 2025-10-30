@@ -50,4 +50,8 @@ The main objective is to perform **data cleaning**, **transformation**, and **ex
 * Aggregations: SUM(), COUNT(), ROUND()
 * CTEs & Subqueries for complex calculations
 * Case Statements for conditional logic
+
+# Tableau Screenshot
+<img width="1655" height="674" alt="image" src="https://github.com/user-attachments/assets/006cbc9b-fb02-4471-8bbd-6394b29e46ef" />
+
   
